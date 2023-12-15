@@ -1,11 +1,11 @@
 <?php 
 
-namespace Public\Modules\{pluginName};
+namespace Public\Modules\<pluginName>;
 
 use EvoPhp\Api\Controllers;
 use EvoPhp\Api\Config;
 
-class {pluginPrefix}Controller extends Controllers
+class <pluginPrefix>Controller extends Controllers
 {
 
     public function __construct()
