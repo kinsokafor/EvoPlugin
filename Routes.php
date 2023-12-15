@@ -8,6 +8,6 @@ use EvoPhp\Api\Requests\Requests;
 //Pages
 
 $router->get('/<entryURI>', function($params){
-    $controller = new BHController;
+    $controller = new <pluginPrefix>Controller;
     $controller->{'<entry>/index'}($params)->auth(2,3,4)->setData(["pageTitle" => "Admin"]);
 }); 
